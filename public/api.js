@@ -29,6 +29,7 @@ const API = {
       body: JSON.stringify(data),
       headers: { "Content-Type": "application/json" }
     });
+    console.log('Creating Workout..')
 
     const json = await res.json();
 
